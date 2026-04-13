@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+
+  /* BACKGROUND FULL */
+  background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('image/latar1.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* NAVBAR */
+.navbar {
+  background: transparent;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: none; /* penting biar ga dobel */
+}
+
+/* TEXT HERO */
+.hero-title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.small-text {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* SECTION */
+section {
+  padding: 100px 0;
+}
+
+/* TITLE */
+.title {
+  color: white;
+  font-weight: bold;
+}
+
+/* GLASS EFFECT */
+.service-card,
+.testi-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: 0.3s;
+}
+
+/* HOVER */
+.service-card:hover,
+.testi-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255,255,255,0.15);
+}
+
+/* ICON */
+.service-card .icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.cta-section {
+  text-align: center;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: rgba(255,255,255,0.2);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* FOOTER */
+.footer {
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 20px;
+}
